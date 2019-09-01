@@ -1,7 +1,7 @@
 {
   "name": "echarts-for-react",
-  "version": "2.0.15-beta.0",
-  "description": "baidu Echarts(v3.x & v4.x) components for react.",
+  "version": "1.0.0-beta.0",
+  "description": "baidu Echarts(v2.2.x) components for react.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hustcc/echarts-for-react.git"
+    "url": "https://github.com/mulspace/echarts-for-react.git"
   },
   "keywords": [
     "react",
@@ -59,7 +59,7 @@
     "coveralls": "^3.0.0",
     "cross-env": "^5.1.3",
     "css-loader": "^0.28.7",
-    "echarts": "4.0.4",
+    "echarts": "2.2.8",
     "echarts-gl": "^1.1.0",
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-15": "^1.0.5",
@@ -92,7 +92,7 @@
   "peerDependencies": {
     "react": ">=0.13.2 || ^0.14 || ^15.0.0 || >=16.0.0",
     "prop-types": "^15.5.7",
-    "echarts": "^3.0.0 || ^4.0.0"
+    "echarts": "^2.2.0"
   },
   "jest": {
     "testRegex": "(/__tests__/.*\\.spec)\\.(js|jsx)$",
